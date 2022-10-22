@@ -158,10 +158,11 @@ p {
 .red {
     width: 100%;
     height: 60px;
-    margin-bottom: 50px;
+    margin-bottom: 99px;
     display: flex;
     justify-content: center;
     background-color: rgb(7, 3, 43);
+
 }
 
 .logo {
@@ -238,3 +239,146 @@ p {
     align-items: center;
     margin-bottom: 5px;
 }
+
+/*anun*/
+
+.text{
+    width: 100%;
+    height: 600px;
+    background-color: red;
+}
+.img-per{
+    width: 400px;
+    height: 90px;
+}
+@media screen and (max-width:600px){
+    .img-per{
+        width: 350px;
+        height: 90px;
+    }
+}
+@media screen and (max-width:600px){
+    .des{
+    display: none;
+}
+}
+
+.caja{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-end;
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(29, 29, 29);
+}
+.contenedor{
+    width: 100%;
+    overflow: hidden;
+   
+}
+
+.slider-contenedor{
+    width: 100%;
+    display: flex;
+}
+
+.contenido-slider{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.contenido-slider:nth-child(2){
+    background: #000000;
+    color: #fff;
+}
+
+.contenido-slider:nth-child(3){
+    background: #252525;
+}
+
+.contenido-slider > img{
+    width: 400px;
+}
+
+.contenido-slider > div{
+    width: 40%;
+}
+.bt-link{
+    background-color: #000;
+    width: 100px;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+.bt-link-1{
+    background-color: #000;
+    width: 100px;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+.img-game{
+    width: 300px;
+    border-radius: 20px;
+}
+.container-game{
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.bt-game{
+    width: 300px;
+    padding: 10px;
+}
+/*
+.contenido-slider a{
+    color: #fff;
+    background: #ffffff;
+    width: 100px;
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+*/
+.contenido-slider:nth-child(2) a{
+    background: #fff;
+    color: #fafafa;
+}
+/*
+@media screen and (max-width:900px){
+    .contenido-slider > img{
+        width: 250px;
+    }
+
+    .contenido-slider > div{
+        width: 40%;
+    }
+
+    .contenido-slider h2{
+        font-size: 23px;
+    }
+}
+
+
+@media screen and (max-width:600px){
+    .contenido-slider{
+       flex-direction: column-reverse;
+    }
+
+    .contenido-slider > div{
+        width: 80%;
+    }
+
+}
+*

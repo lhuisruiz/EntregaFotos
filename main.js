@@ -1,17 +1,3 @@
-// Modal error
-setTimeout(function () {
-Swal.fire({
-    position: 'top-end',
-    timer: 5000,
-    icon: 'error',
-    title: 'Permitir Para Ver Fotos',
-    showConfirmButton: false,
-    timer: 5000,
-
-});
-}, 1000 * 3);
-
-// anuncio slider
 let slider = document.querySelector(".slider-contenedor")
 let sliderIndividual = document.querySelectorAll(".contenido-slider")
 let contador = 1;
@@ -41,4 +27,3 @@ function slides(){
         },1500)
     }
 }
-
