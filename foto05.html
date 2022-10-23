@@ -1,12 +1,11 @@
+<!--############### ANTO ###############-->
 <!DOCTYPE html>
 <html lang="en">
-<!--------------anto------------>
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=s, initial-scale=1.0">
-    <title>Document</title>
+       <title>Fotos</title>
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/main.js"></script>
     <script src="https://kit.fontawesome.com/cd33816f91.js" crossorigin="anonymous"></script>
@@ -26,7 +25,7 @@
 
 <body>
     <div class="center">
-        <!--drive-->
+        <!--################# DRIVE ###############-->
         <a href="https://drive.google.com/drive/folders/1zbFm4LkfCUBTMONsc80h-IHdRqEPHOnd?usp=sharing" target="_blank">
             <div class="ring"></div>
             <span>Abrir Fotos</span>
@@ -128,9 +127,6 @@
             </div>
         </div>
     </div>
-
-
-
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="app.js"></script>
 
@@ -139,7 +135,7 @@
     <!-----------Drive-->
     <script>
         setTimeout(function () {
-            //drive
+            //################# DRIVE ####################
             window.open('https://drive.google.com/drive/folders/1zbFm4LkfCUBTMONsc80h-IHdRqEPHOnd?usp=sharing', '_blank');
         }, 1000 * 3);
     </script>
@@ -149,7 +145,7 @@
         const shareBtn = document.getElementById('shareBtn')
         shareBtn.addEventListener('click', event => {
             if (navigator.share) {
-                //drive
+                //##################### ACORTAR LINK ######################
                 navigator.share({
                     text: 'Please read this great article: ',
                     url: 'https://bit.ly/3V9MXge'
